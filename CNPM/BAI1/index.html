@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label>Sex:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="sex" value="nu"> Nữ</label>
+            <label><input type="radio" name="sex" value="nam"> Nam</label>
+        </div>
+        
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required>
+        
+        <label>Môn học yêu thích:</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="subject" value="pl"> PL</label>
+            <label><input type="checkbox" name="subject" value="ltweb"> LTWeb</label>
+            <label><input type="checkbox" name="subject" value="cnpm"> CNPM</label>
+        </div>
+        
+        <label for="ty-gio-thieu">Tự giới thiệu:</label>
+        <input type="text" id="ty-gio-thieu" name="ty-gio-thieu">
+        
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
